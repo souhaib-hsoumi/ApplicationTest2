@@ -9,5 +9,4 @@ spec:
    env: prod
  ports:
  -"8000:80"
-    volumes:
-      - ./app:/usr/share/nginx/html
+   
