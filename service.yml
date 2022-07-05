@@ -8,4 +8,8 @@ spec:
    app: test-appdeux
    env: prod
  ports:
- -"8000:80"
+ - name: test
+   protocol: TCP
+   port: 3000
+   targetPort: 3000
+   nodePort: 32223
