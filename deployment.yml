@@ -18,3 +18,5 @@ spec:
     containers: 
     - name: test-container 
       image: nginx:alpine
+      ports:
+           —containerPort: 80
