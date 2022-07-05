@@ -8,8 +8,6 @@ spec:
    app: test-appdeux
    env: prod
  ports:
- - name: test
-   protocol: TCP
-   port: 3001
-   targetPort: 3001
-   nodePort: 32223
+ - "172.29.4.126:8000:80"
+    volumes:
+      - ./app:/usr/share/nginx/html
