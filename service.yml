@@ -9,4 +9,3 @@ spec:
    env: prod
  ports:
  -"8000:80"
-   
