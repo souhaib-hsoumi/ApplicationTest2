@@ -8,6 +8,6 @@ spec:
    app: test-appdeux
    env: prod
  ports:
-  - "8000:80"
+ -"8000:80"
     volumes:
       - ./app:/usr/share/nginx/html
