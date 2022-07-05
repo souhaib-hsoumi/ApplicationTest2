@@ -16,10 +16,5 @@ spec:
      env: prod 
    spec: 
     containers: 
-     -name: test-container 
+    - name: test-container 
       image: nginx:alpine
-      ports:
-           —containerPort: 80
-          volumeMounts:
-           —mountPath: "/usr/share/nginx/html"
-              name: my-pv-storage
