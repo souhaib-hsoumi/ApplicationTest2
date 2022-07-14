@@ -1,4 +1,4 @@
 # syntax=docker/dockerfile:1
 FROM nginx:alpine
 CMD ["index.html"]
-EXPOSE 3001
+EXPOSE 3000
